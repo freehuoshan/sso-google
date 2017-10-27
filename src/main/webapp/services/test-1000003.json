@@ -1,0 +1,14 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^http://authority.localcodeblog.net/login/cas",
+  "name" : "Apereo",
+  "theme" : "apereo",
+  "id" : 10000003,
+  "description" : "Apereo foundation sample service",
+  "multifactorPolicy" : {
+ 		 "@class" : "org.apereo.cas.services.DefaultRegisteredServiceMultifactorPolicy",
+  		 "multifactorAuthenticationProviders" : [ "java.util.LinkedHashSet", [ "mfa-gauth" ] ],
+		"bypassEnabled" : false,
+   		"failureMode" : "CLOSED"
+  }
+}
