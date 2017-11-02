@@ -98,10 +98,18 @@
 		</dependency>
 		
 		<dependency>
+		  <groupId>org.apereo.cas</groupId>
+		  <artifactId>cas-server-support-oauth-webflow</artifactId>
+		  <version>${cas.version}</version>
+		</dependency>
+		
+		<dependency>
 		  <groupId>mysql</groupId>
 		  <artifactId>mysql-connector-java</artifactId>
 		  <version>5.1.38</version>
 		</dependency>
+		
+		
     </dependencies>
 
     <properties>

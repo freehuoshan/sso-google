@@ -38,7 +38,7 @@ function debug() {
 }
 
 function run() {
-	package && $JAVA_HOME/bin/java -jar target/cas.war
+	package && java -jar target/cas.war
 }
 
 function gencert() {
